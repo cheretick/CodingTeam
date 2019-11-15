@@ -38,4 +38,5 @@ while not quit:
               "\n\n\"quit\" or \"q\"\t\tQuits the program")
 
     if userInput[0] == "quit" or userInput[0] == "q":
+        print("GOODBYE!")
         quit = True
