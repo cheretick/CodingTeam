@@ -1,6 +1,7 @@
 quit = False
 grades = []
 final = []
+print("Type \"help\" or \"h\" for help")
 while not quit:
     userInput = input().lower().split()
 
