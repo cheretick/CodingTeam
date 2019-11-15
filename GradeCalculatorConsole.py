@@ -1,7 +1,16 @@
 quit = False
 grades = []
 final = []
-print("Type \"help\" or \"h\" for help")
+print(format("HELP", "^80") + "\n" + "-" * 80 + \
+              "\n\tEnter the following commands, followed by indicated values."
+              "\n\tSeparate values with spaces (not case sensitive)\n\n"
+              "Command:\t\tDetails:\n"
+              "\"add\" or \"a\"\t\tAdds a new grade to the grade book with custom weight.\n\t\t\t\t\t"
+              "EX: \"add 95 15\" adds a grade of 95%, weighted at 15% "
+              "\n\n\"delete\" or \"d\"\t\tRemoves the last grade entered from the grade book"
+              "\n\n\"show\" or \"s\"\t\tDisplays the grade book's entries as well as the total grade percentage"
+              "\n\n\"clear\" or \"c\"\t\tClears the grade book"
+              "\n\n\"quit\" or \"q\"\t\tQuits the program")
 while not quit:
     userInput = input().lower().split()
 
