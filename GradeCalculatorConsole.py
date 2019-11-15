@@ -39,6 +39,3 @@ while not quit:
 
     if userInput[0] == "quit" or userInput[0] == "q":
         quit = True
-
-
-# reeeeeeeeeeeeeeeeeeeeeeee
